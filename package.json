@@ -1,5 +1,5 @@
 {
-  "name": "@sozialhelden/ietf-language-tags",
+  "name": "@fluentic/ietf-language-tags",
   "private": false,
   "version": "5.0.0",
   "license": "MIT",
@@ -11,12 +11,12 @@
       "require": "./dist/cjs/index.js"
     }
   },
-  "author": "Sebastian Felix Zappe <sebastian@sozialhelden.de>",
-  "repository": "sozialhelden/ietf-language-tags",
+  "author": "Pekka Kokkonen <pexxi@fluentic.com>",
+  "repository": "Transfluent/ietf-language-tags",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/cjs/index.d.ts",
   "bundleDependencies": [],
   "deprecated": false,
   "description": "Helps you working with IETF language tags as specified by BCP 47 / RFC 5646.",
